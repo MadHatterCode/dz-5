@@ -1,11 +1,11 @@
-# example_list = [1, 2, 3, 4, 5, 6]
+example_list = [1, 2, 3, 4, 5, 6]
 # example_list = [1, 2, 3]
 # example_list = [1, 2, 3, 4, 5]
 # example_list = [1]
-example_list = []
+# example_list = []
 
 list_length = len(example_list)
-list_divider = int((len(example_list) / 2))
+list_divider = list_length // 2
 new_list = []
 
 if not list_length % 2 == 0:
